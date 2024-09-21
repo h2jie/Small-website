@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Repositories</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+</head>
+<body>
+  <div class="container-sm mt-5">
+    <div class="row">
+      <div class="col">
+        <h2 class="text-center">Searcher Repositories</h2>
+
+        <form id="username-form">
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control form-control-sm" id="username" placeholder="Enter GitHub username" required>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary btn-sm">Search</button>
+            </div>
+          </div>
+        </form>
+
+        <div id="repo-table" class="mt-5">
+          <h3>Repositories</h3>
+          <table class="table table-striped">
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Number of followers</th>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+</html>
